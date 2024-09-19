@@ -312,6 +312,10 @@ lab3data %>%
 
 # Q1: Descrptively, which group has a higher self-esteem? What about life satisfaction? Is the relationship between self-esteem and life satisfaction stronger for males or for females?
 
+Male has a higher self-esteem, Female has a higher life satisfaction.
+The relationship between self-esteem and life satisfaction is stronger
+for males.
+
 # Visualization of Data Distribution
 
 ``` r
@@ -333,3 +337,9 @@ ggplot(lab3data, aes(x = Gender, y = RSE1)) + geom_violin(aes(fill=Gender)) + sc
 ![](Lab3_files/figure-gfm/unnamed-chunk-8-2.png)<!-- -->
 
 # Q2: What you can tell from looking at a violin plot? What you cannot tell? What inferences you can make based on the two violin plots?
+
+I can tell the distribution shape, density, and range of data. I cannot
+tell the exact number such as mean or median. The inferences I can make
+based on the two violin plots is that the female has a more concentrated
+score of self-esteem, whereas the male has a relatively different
+self-esteem level within groups.
